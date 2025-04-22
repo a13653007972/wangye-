@@ -5,20 +5,10 @@
 '''
 
 import os
-from dotenv import load_dotenv
 
 # !! 安全警告 !!
 # 不要在代码中直接硬编码您的 API Key 和 Secret!
 # 推荐使用环境变量或安全的配置文件 (.env) 来管理密钥。
-
-# 加载 .env 文件中的环境变量 (如果存在)
-# 这允许我们将敏感信息（如API密钥）或环境特定配置放在 .env 文件中
-dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-if os.path.exists(dotenv_path):
-    load_dotenv(dotenv_path)
-    print("已成功加载 .env 文件中的配置。")
-else:
-    print("未找到 .env 文件，将使用配置脚本中的默认值或环境变量（如果已设置）。")
 
 # --- 币安 API 配置 ---
 # 从环境变量获取 API 密钥，如果环境变量未设置，则使用占位符
