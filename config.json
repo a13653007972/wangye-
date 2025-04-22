@@ -1,0 +1,7 @@
+{
+  "deepseek_api_key": "sk-e75d0806f5704784a948c293c89ddeb0",
+  "deepseek_api_endpoint": "https://api.deepseek.com/v1/chat/completions",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7
+}

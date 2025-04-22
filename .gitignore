@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+logs/
+*.log
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files (Add specific large data files if needed)
+# *.csv
+# *.json
+# *.db
+
+# Streamlit secrets file (if used locally)
+.streamlit/secrets.toml
+
+# Auto-generated analysis results (if you don't want to track them)
+auto_analysis_results.json
+auto_volume_analysis_results.json
+analysis_results.json
